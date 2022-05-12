@@ -16,7 +16,7 @@ using namespace std;
 
 void pointerFunction(){
 int n = 69;
-int *ptr = &n;
+int* ptr = &n; /// can also be int *ptr = &n;
 std::cout << n <<
 std::endl;
 std::cout << "The address of my pointer is " << ptr <<
